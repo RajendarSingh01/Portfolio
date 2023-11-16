@@ -1,0 +1,49 @@
+{
+    "Skills": [
+      {
+        "id": "1",
+        "src": "https://img.icons8.com/color/480/javascript--v1.png",
+        "title": "JavaScript",
+        "description": "I'm skilled in JavaScript, using it to make websites do cool things. I've worked on making websites interactive, quick, and user-friendly. JavaScript helps me add life to web pages."
+      },
+      {
+        "id": "2",
+        "src": "https://img.icons8.com/officel/100/react.png",
+        "title": "React",
+        "description": "I'm experienced in React, a tool that helps me build websites that look great and work smoothly. I create reusable parts for websites, making them easy to manage and quick to load. I enjoy making single-page applications that feel modern and snappy."
+      },
+      {
+        "id": "3",
+        "src": "  https://img.icons8.com/fluency/400/node-js.png",
+        "title": "Node.js",
+        "description": "With Node.js, I build the behind-the-scenes parts of websites. It allows me to create powerful servers and build things that update in real-time. Node.js helps me make websites that can handle a bunch of people using them at the same time."
+      },
+      {
+        "id": "4",
+        "src": "https://img.icons8.com/ios/500/c-plus-plus.png",
+        "title": "C++",
+        "description": "I know my way around C++, a language that's super powerful. I use it for tasks that need to be fast and efficient, like building computer programs and games. It lets me control how the computer uses its memory and resources, making things work really well."
+      }
+    ],
+    "Projects": [
+        {
+          "id": "1",
+          "src": "path/to/project1.png",
+          "title": "Project 1",
+          "description": "A brief description of Project 1."
+        },
+        {
+          "id": "2",
+          "src": "path/to/project2.png",
+          "title": "Project 2",
+          "description": "A brief description of Project 2."
+        },
+        {
+          "id": "3",
+          "src": "path/to/project3.png",
+          "title": "Project 3",
+          "description": "A brief description of Project 3."
+        }
+      ]
+  }
+  
