@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d823e969.css",
-    "main.js": "/Portfolio/static/js/main.54c24248.js",
-    "static/media/hero_img.png": "/Portfolio/static/media/hero_img.e3bc74a242a69dbff6f5.png",
-    "static/media/about-me.png": "/Portfolio/static/media/about-me.9d98861b9b3421468c96.png",
+    "main.css": "/Portfolio/static/css/main.38381d11.css",
+    "main.js": "/Portfolio/static/js/main.792176b3.js",
+    "static/media/GymTracker.png": "/Portfolio/static/media/GymTracker.f0cb58277be6d72395a4.png",
+    "static/media/bird_2.jpg": "/Portfolio/static/media/bird_2.73643f928a2c58a3a424.jpg",
+    "static/media/Portfolio_pic.png": "/Portfolio/static/media/Portfolio_pic.e50b8eed9d7d549b657d.png",
+    "static/media/GamePic.png": "/Portfolio/static/media/GamePic.b7c34617c427c80d6acc.png",
+    "static/media/hero_img.png": "/Portfolio/static/media/hero_img.a00c284753268d86cf50.png",
+    "static/media/aboutPic.png": "/Portfolio/static/media/aboutPic.ffaeae999befb763efe3.png",
     "index.html": "/Portfolio/index.html",
-    "main.d823e969.css.map": "/Portfolio/static/css/main.d823e969.css.map",
-    "main.54c24248.js.map": "/Portfolio/static/js/main.54c24248.js.map"
+    "main.38381d11.css.map": "/Portfolio/static/css/main.38381d11.css.map",
+    "main.792176b3.js.map": "/Portfolio/static/js/main.792176b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d823e969.css",
-    "static/js/main.54c24248.js"
+    "static/css/main.38381d11.css",
+    "static/js/main.792176b3.js"
   ]
 }
