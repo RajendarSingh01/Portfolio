@@ -1,14 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Alert, Snackbar } from "@mui/material";
 
 const ContactMe = () => {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const formData = {
+      firstName: event.target["first-name"].value,
+      lastName: event.target["last-name"].value,
+      email: event.target.email.value,
+      phoneNumber: event.target["phone-number"].value,
+      message: event.target.message.value,
+    };
+    // console.log(formData);
+    setFormSubmitted(true);
+  };
+  const handleCloseAlert = () => {
+    setFormSubmitted(false);
+  };
+  useEffect(() => {
+    let timer;
+    if (formSubmitted) {
+      timer = setTimeout(() => {
+        setFormSubmitted(false);
+      }, 2000);
+    }
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [formSubmitted]);
   return (
-    <section id="Contact" className="contact--section">
+    <section onSubmit={handleSubmit} id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
-        <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
-        </p>
+        <p className="text-lg">"Drop me a Message and let's connect!"</p>
       </div>
       <form className="contact--form--container">
         <div className="container">
@@ -53,15 +79,6 @@ const ContactMe = () => {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
-          <span className="text-md">Choose a topic</span>
-          <select id="choose-topic" className="contact--input text-md">
-            <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
-          </select>
-        </label>
         <label htmlFor="message" className="contact--label">
           <span className="text-md">Message</span>
           <textarea
@@ -69,16 +86,27 @@ const ContactMe = () => {
             id="message"
             rows="8"
             placeholder="Type your message..."
+            required
           />
-        </label>
-        <label htmlFor="checkboc" className="checkbox--label">
-          <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
         </label>
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
       </form>
+      <Snackbar
+        open={formSubmitted}
+        autoHideDuration={6000}
+        onClose={handleCloseAlert}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+      >
+        <Alert
+          onClose={handleCloseAlert}
+          severity="success"
+          sx={{ width: "100%" }}
+        >
+          Message Sent successfully!
+        </Alert>
+      </Snackbar>
     </section>
   );
 };

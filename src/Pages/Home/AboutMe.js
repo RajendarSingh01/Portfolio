@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../data/img/about-me.png";
+import pic from "../../data/img/aboutPic.png";
 
 const AboutMe = () => {
   return (
@@ -12,19 +12,20 @@ const AboutMe = () => {
       about--section--box"
       >
         <div className="skills-section--content">
-          <p className="section-title">About</p>
           <h1 className="skills--section--heading">About Me</h1>
-          <p className="hero--section-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea numquam
-            voluptate sapiente eum dolore neque dolorem? Perspiciatis iusto,
-            obcaecati deserunt perferendis labore possimus veritatis ipsam
-            laborum distinctio iure quaerat!
+          <p className="skills--section--description">
+            I'm a Full Stack Developer specializing in React and Node.js, with
+            1.5 years of hands-on experience. My expertise lies in optimizing
+            React components, achieving GTMatrix ratings of 74 and above. At
+            Starweaver Group, I enhanced website security and user tracking by
+            implementing permissions and access controls.
           </p>
-          <p className="hero--section-description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea numquam
-            voluptate sapiente eum dolore neque dolorem? Perspiciatis iusto,
-            obcaecati deserunt perferendis labore possimus veritatis ipsam
-            laborum distinctio iure quaerat!
+          <br />
+          <p className="skills--section--description">
+            Starting as a React Developer Intern, I refined frontend skills and
+            supported backend development in Node.js. This foundational
+            experience paved the way for my current role as a proficient Full
+            Stack Developer, adept at improving web applications.
           </p>
         </div>
       </div>

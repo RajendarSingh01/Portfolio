@@ -1,3 +1,4 @@
+
 {
     "Skills": [
       {
@@ -28,21 +29,21 @@
     "Projects": [
         {
           "id": "1",
-          "src": "path/to/project1.png",
-          "title": "Project 1",
-          "description": "A brief description of Project 1."
+          "title": "Workout Tracker",
+          "link":"https://rajendarsingh01.github.io/workout-tracker/",
+          "description": "React-based app for personalized exercise planning. Responsive interface ensures seamless tracking and analysis of workout data."
         },
         {
           "id": "2",
-          "src": "path/to/project2.png",
-          "title": "Project 2",
-          "description": "A brief description of Project 2."
+          "title": "DuoMatch Card Game",
+          "link":"https://rajendarsingh01.github.io/card-match-game/",
+          "description": "Competitive two-player card game focusing on interactive card-matching. Players reveal and match cards, earning points for successful pairs."
         },
         {
           "id": "3",
-          "src": "path/to/project3.png",
-          "title": "Project 3",
-          "description": "A brief description of Project 3."
+          "title": "Portfolio Website",
+          "link":"https://rajendarsingh01.github.io/Portfolio/",
+          "description": "Sleek, user-centric platform showcasing skills and achievements. Engaging design for easy navigation and a lasting brand impression."
         }
       ]
   }
